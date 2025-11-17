@@ -1,0 +1,16 @@
+[
+    {
+      "id": 1,
+      "cuenta": "admin",
+      "contrasena": "admin123",
+      "rol": "admin",
+      "nombre": "Oficial Jefe"
+    },
+    {
+      "id": 2,
+      "cuenta": "centinela",
+      "contrasena": "1234",
+      "rol": "centinela",
+      "nombre": "Soldado Perez"
+    }
+  ]
