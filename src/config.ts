@@ -1,7 +1,9 @@
 import path from 'path';
 
-export const PORT = 4000;
-export const SECRET_KEY = 'mi_secreto_super_seguro'; 
+export const PORT = process.env.PORT ? parseInt(process.env.PORT) : 4000;
+
+export const SECRET_KEY = process.env.SECRET_KEY || 'FALLBACK_SECRETO_PELIGROSO_DEV';
+
 
 export const DATA_DIR = path.join(__dirname, '..', 'data');
 export const DB_PATHS = {
