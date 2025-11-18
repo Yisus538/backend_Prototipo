@@ -1,4 +1,4 @@
-// Ruta: src/models/db.ts
+
 import fs from 'fs';
 import { DB_PATHS } from '../config';
 import { User, Morador, NoAutorizado, Visita, Tarjeta } from '../interfaces/types';
