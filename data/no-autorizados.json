@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "dni": "43082549",
+    "nombre": "Tomas Disandro",
+    "motivo": "Hurto de perro por no ir Airbag",
+    "fecha_reporte": "2025-10-01"
+  },
+  {
+    "id": "2",
+    "dni": "88888888",
+    "nombre": "Joaquin Vicente",
+    "motivo": "Restricción de ingreso permanente.",
+    "fecha_reporte": "2025-11-01"
+  },
+  {
+    "id": "40c3fefa-72bf-4a44-9bd1-ddaa02e0a6d9",
+    "dni": "45154450",
+    "nombre": "Jesus Manuel Martinez",
+    "motivo": "Robo el perro de Disandro\n",
+    "fecha_reporte": "2025-11-18T00:59:40.088Z"
+  }
+]
