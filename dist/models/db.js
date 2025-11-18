@@ -4,7 +4,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.TarjetaModel = exports.VisitaModel = exports.NoAutorizadoModel = exports.MoradorModel = exports.UserModel = void 0;
-// Ruta: src/models/db.ts
 const fs_1 = __importDefault(require("fs"));
 const config_1 = require("../config");
 function readJsonFile(filePath) {

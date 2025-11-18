@@ -6,9 +6,7 @@ import { SECRET_KEY } from '../config';
 export const loginController = (req: Request, res: Response): any => {
     const { cuenta, contrasena } = req.body;
 
-    // ! Pedir al modelo que encuentre al usuario
     const usuarioEncontrado = UserModel.findByCredentials(cuenta, contrasena);
-    //! Manejar la respuesta
     if (usuarioEncontrado) {
         const token = jwt.sign(
             { 

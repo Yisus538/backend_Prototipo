@@ -9,9 +9,7 @@ const db_1 = require("../models/db");
 const config_1 = require("../config");
 const loginController = (req, res) => {
     const { cuenta, contrasena } = req.body;
-    // ! Pedir al modelo que encuentre al usuario
     const usuarioEncontrado = db_1.UserModel.findByCredentials(cuenta, contrasena);
-    //! Manejar la respuesta
     if (usuarioEncontrado) {
         const token = jsonwebtoken_1.default.sign({
             cuenta: usuarioEncontrado.cuenta,

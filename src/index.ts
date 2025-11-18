@@ -1,14 +1,14 @@
-import 'dotenv/config'; 
+import 'dotenv/config';
 import express, { Request, Response } from 'express';
 import cors from 'cors';
-import { PORT, SECRET_KEY } from './config'; 
+import { PORT } from './config';
 import apiRouter from './routes';
 
 const app = express();
 
 const frontendURL = process.env.FRONTEND_URL;
 if (!frontendURL) {
-    console.error("⚠️ FRONTEND_URL no definido. Revisar archivo .env o variables de Render.");
+    console.error("FRONTEND_URL no definido. Revisar archivo .env o variables de Render.");
     process.exit(1);
 }
 

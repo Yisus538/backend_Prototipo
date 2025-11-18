@@ -39,7 +39,6 @@ export interface User {
     rol: 'admin' | 'centinela';
 }
 
-// Interfaz extendida para Request con datos de usuario
 export interface CustomRequest extends Request {
     user?: any;
 }

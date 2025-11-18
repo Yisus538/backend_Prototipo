@@ -11,7 +11,7 @@ const routes_1 = __importDefault(require("./routes"));
 const app = (0, express_1.default)();
 const frontendURL = process.env.FRONTEND_URL;
 if (!frontendURL) {
-    console.error("⚠️ FRONTEND_URL no definido. Revisar archivo .env o variables de Render.");
+    console.error("FRONTEND_URL no definido. Revisar archivo .env o variables de Render.");
     process.exit(1);
 }
 app.use((0, cors_1.default)({
