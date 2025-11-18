@@ -1,6 +1,5 @@
-// Ruta: src/controllers/morador.controller.ts
 import { Request, Response } from 'express';
-import { MoradorModel } from '../models/db'; // <- Corregido para importar desde db.ts
+import { MoradorModel } from '../models/db';
 import { Morador } from '../interfaces/types';
 
 
