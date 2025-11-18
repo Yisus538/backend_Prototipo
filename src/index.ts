@@ -21,7 +21,7 @@ app.use(cors({
 app.use(express.json());
 
 app.get('/', (req: Request, res: Response) => {
-    res.send('Servidor MVC con Base de Datos JSON y JWT activo 🫡');
+    res.send('Servidor MVC con Base de Datos JSON y JWT activo');
 });
 
 app.use('/api', apiRouter);
