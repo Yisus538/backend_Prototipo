@@ -1,16 +1,30 @@
 [
-    {
-      "id": 1,
-      "cuenta": "admin",
-      "contrasena": "admin123",
-      "rol": "admin",
-      "nombre": "Oficial Jefe"
-    },
-    {
-      "id": 2,
-      "cuenta": "centinela",
-      "contrasena": "1234",
-      "rol": "centinela",
-      "nombre": "Soldado Perez"
-    }
-  ]
+  {
+    "id": 1,
+    "cuenta": "admin",
+    "contrasena": "admin123",
+    "rol": "admin",
+    "nombre": "Oficial Jefe"
+  },
+  {
+    "id": 2,
+    "cuenta": "centinela",
+    "contrasena": "1234",
+    "rol": "centinela",
+    "nombre": "Soldado Perez"
+  },
+  {
+    "id": 3,
+    "cuenta": "boggio",
+    "contrasena": "jacobson",
+    "rol": "admin",
+    "nombre": "Ing Boggio"
+  },
+  {
+    "id": 4,
+    "cuenta": "mira",
+    "contrasena": "gof",
+    "rol": "admin",
+    "nombre": "Licenciada Mira"
+  }
+]

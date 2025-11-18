@@ -1,0 +1,23 @@
+[
+  {
+    "id": "12345678",
+    "nombre": "Casanova",
+    "dni": "12345678",
+    "direccion": "Sector Oficiales - Casa 124",
+    "numeroTarjeta": "TAR201"
+  },
+  {
+    "id": "87654321",
+    "nombre": "Ana María Gómez",
+    "dni": "87654321",
+    "direccion": "Sector Suboficiales - Casa 50",
+    "numeroTarjeta": "TAR202"
+  },
+  {
+    "id": "45154450",
+    "dni": "45154450",
+    "nombre": "jesus martinez",
+    "direccion": "achaval rodriguez 2405",
+    "numeroTarjeta": "tar204"
+  }
+]
