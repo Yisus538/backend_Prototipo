@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+// Ruta: src/routes/visita.routes.ts
+const express_1 = require("express");
+const visita_controller_1 = require("../controllers/visita.controller");
+const auth_middleware_1 = require("../middleware/auth.middleware");
+const router = (0, express_1.Router)();
+// POST /api/visitas
+router.post('/', auth_middleware_1.verificarToken, visita_controller_1.createVisita);
+exports.default = router;
