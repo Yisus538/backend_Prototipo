@@ -5,5 +5,12 @@
     "patente": "ABC123",
     "numeroTarjeta": "tar204",
     "fecha_creacion": "2025-11-18T01:53:21.396Z"
+  },
+  {
+    "id": "5a0bf852-1d9f-4610-bf31-e27b0478e2e3",
+    "idMorador": "45154450",
+    "patente": "AG702MY",
+    "numeroTarjeta": "tar204",
+    "fecha_creacion": "2025-11-18T03:01:52.850Z"
   }
 ]

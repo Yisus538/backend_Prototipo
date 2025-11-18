@@ -4,5 +4,11 @@
     "dni": "45154450",
     "nombre": "Jesus Manuel Martinez",
     "fecha_ingreso": "2025-11-18T00:53:23.503Z"
+  },
+  {
+    "id": "b65f924f-c2e7-465e-816e-97b52df32b25",
+    "dni": "111111111",
+    "nombre": "Francisco Bossio",
+    "fecha_ingreso": "2025-11-18T03:05:35.845Z"
   }
 ]

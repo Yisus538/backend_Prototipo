@@ -19,5 +19,19 @@
     "nombre": "jesus martinez",
     "direccion": "achaval rodriguez 2405",
     "numeroTarjeta": "tar204"
+  },
+  {
+    "id": "45244156",
+    "dni": "45244156",
+    "nombre": "Francisco Bossio",
+    "direccion": "Corro ",
+    "numeroTarjeta": "TAR305"
+  },
+  {
+    "id": "45154451",
+    "dni": "45154451",
+    "nombre": "Juan Perez",
+    "direccion": ".......",
+    "numeroTarjeta": "Tar202"
   }
 ]
